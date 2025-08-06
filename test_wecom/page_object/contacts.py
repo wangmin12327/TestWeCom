@@ -32,6 +32,7 @@ class Contacts(BasePage):
                               "@class='member_display_item_right']")
     # 退出添加成员界面
     __BACK = (By.XPATH, "//*[@class='qui_btn ww_btn ww_btn_Back js_back']")
+
     # 删除成员信息的元素定位
     __CHECK_BOX = (By.XPATH, "//*[@id='member_list']//tr[1]//td[1]")
     __DEL = (By.XPATH, "//*[@class='qui_btn ww_btn js_delete']")
